@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="css/hjem.css">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/global.css">
-<link rel="stylesheet" href="css/tilmeld.css">
 <meta name="description" content="Tilmeld dig til den bedste e sports sommerlejr nu! ">
 <meta name="keywords" content="Astralis,device,træner,coach,træning,bliv bedre,e-sport">
 <meta name="geo.region" content="dk">
@@ -17,7 +16,6 @@
 
 <header>
      <nav>
-      <nav>
         <button class="burger-menu" onclick="toggleMenu()">☰</button>
         <section class="menu-actions">
           <button class="search-button" aria-label="Search">
@@ -27,10 +25,20 @@
             <img src="img/acc.webp" alt="My Account">
           </button>
         </section>
-      </nav>
     </nav>
 </header>
 
+<aside class="menu-overlay">
+  <button class="close-btn" onclick="toggleMenu()">×</button>
+  <ul>
+    <li><a href="hjem.html">Hjem</a></li>
+    <li><a href="tilmeld.html">Tilmelding</a></li>
+    <li><a href="streaming.html">Se Live</a></li>
+    <li><a href="#">Nyheder</a></li>
+    <li><a href="#">Stats</a></li>
+    <li><a href="#">Om Astralis Aim Academy</a></li>
+  </ul>
+</aside>
 
 <main>
 
@@ -38,7 +46,7 @@
         <div class="content">
           <div class="slides">
             <div class="slide_content 1">
-                <a href="tilmelding.html"><img src="img/slide1.webp" alt="Tilmelding"></a>
+                <a href="tilmeld.html"><img src="img/slide1.webp" alt="Tilmelding"></a>
             </div>
             <div class="slide_content 2">
                 <img src="img/slide2.webp" alt="Bro">
@@ -101,18 +109,6 @@
     </article>
   </section>
 </footer>
-
-<aside class="menu-overlay">
-  <button class="close-btn" onclick="toggleMenu()">×</button>
-  <ul>
-    <li><a href="hjem.html">Hjem</a></li>
-    <li><a href="tilmeld.html">Tilmelding</a></li>
-    <li><a href="streaming.html">Se Live</a></li>
-    <li><a href="#">Nyheder</a></li>
-    <li><a href="#">Stats</a></li>
-    <li><a href="#">Om Astralis Aim Academy</a></li>
-  </ul>
-</aside>
 
 <script src="script.js"></script>
 <script src="slideshow.js"></script>
