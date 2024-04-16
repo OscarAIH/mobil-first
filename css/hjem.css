@@ -28,18 +28,6 @@
     background: linear-gradient(to bottom, #222939, #222939 50%, transparent 100%);
 }
 
-#burger {
-  color: #e03a3e;
-  font-size: 250%;
-  background-color: transparent;
-  border:none;
-}
-
-#profil {
-  background-color: transparent;
-  font-size: 200%;
-  border: none;
-}
 
 #knap {
   margin: 1em;
@@ -50,13 +38,6 @@
   border-radius: 30%;
  }
 
-
-  
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
-}
   
 .overskrift {
     background-color: #e03a3e;

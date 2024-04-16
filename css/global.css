@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-sf-pro-text: "SF Pro Text";
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-xs: 12px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-whitesmoke: #ededed;
+    --color-red: #ff0101;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+  }
+  

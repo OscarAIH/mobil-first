@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AIM Academy</title>
 <link rel="stylesheet" href="css/hjem.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/global.css">
 <meta name="description" content="Tilmeld dig til den bedste e sports sommerlejr nu! ">
 <meta name="keywords" content="Astralis,device,træner,coach,træning,bliv bedre,e-sport">
 <meta name="geo.region" content="dk">
@@ -12,18 +14,25 @@
 </head>
 <body>
 
-<header>
-     <nav>
-        <button id="burger">☰</button>
-        <input type="search" placeholder="Search...">
-        <button id="profil">👤</button>
+  <header>
+    <nav>
+      <button class="burger-menu" onclick="toggleMenu()">☰</button>
+      <section class="menu-actions">
+        <button class="search-button" aria-label="Search">
+          <img src="img/search.webp" alt="Search">
+        </button>
+        <button class="account-button" aria-label="My Account">
+          <img src="img/acc.webp" alt="My Account">
+        </button>
+      </section>
     </nav>
-  <div class="overskrift">
-    <h1>Tilmeldingen for 2025 er nu åben!</h1>
-    <h2>AIM ACADEMY</h2>
-    <a href="#"id="tilmelding">Tilmeld dig her ></a>
-  </div>
-</header>
+  </header>
+
+<div class="overskrift">
+  <h1>Tilmeldingen for 2025 er nu åben!</h1>
+  <h2>AIM ACADEMY</h2>
+  <a href="#"id="tilmelding">Tilmeld dig her ></a>
+</div>
 
 <main>
   <section id="knap">
@@ -82,5 +91,18 @@
   </section>
 </footer>
 
+<aside class="menu-overlay">
+  <button class="close-btn" onclick="toggleMenu()">×</button>
+  <ul>
+    <li><a href="hjem.html">Hjem</a></li>
+    <li><a href="tilmelding.html">Tilmelding</a></li>
+    <li><a href="streaming.html">Se Live</a></li>
+    <li><a href="#">Nyheder</a></li>
+    <li><a href="#">Stats</a></li>
+    <li><a href="#">Om Astralis Aim Academy</a></li>
+  </ul>
+</aside>
+
+<script src="script.js"></script>
 </body>
 </html>

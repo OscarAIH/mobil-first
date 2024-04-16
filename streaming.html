@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semantic Navbar</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/streaming.css">
+<link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <button class="burger-menu" onclick="toggleMenu()">☰</button>
+    <section class="menu-actions">
+      <button class="search-button" aria-label="Search">
+        <img src="img/search.webp" alt="Search">
+      </button>
+      <button class="account-button" aria-label="My Account">
+        <img src="img/acc.webp" alt="My Account">
+      </button>
+    </section>
+  </nav>
+</header>
+
+
+<aside class="menu-overlay">
+  <button class="close-btn" onclick="toggleMenu()">×</button>
+  <ul>
+    <li><a href="hjem.html">Hjem</a></li>
+    <li><a href="tilmelding.html">Tilmelding</a></li>
+    <li><a href="streaming.html">Se Live</a></li>
+    <li><a href="#">Nyheder</a></li>
+    <li><a href="#">Stats</a></li>
+    <li><a href="#">Om Astralis Aim Academy</a></li>
+  </ul>
+</aside>
+
+<section class="label-parent1">
+    <article class="label12">
+      <figure class="shape-wrapper">
+        <span class="shape14"></span>
+      </figure>
+      <header class="label-1-container">
+        <span class="live">Live</span>
+      </header>
+      <footer class="label-wrapper1">
+        <span class="sealle">Se alle</span>
+      </footer>
+    </article>
+
+    <article class="kamp-1">
+      <figure>
+        <span class="image2"></span>
+        <img class="matchpic" loading="lazy" alt="Astralis vs FaZe match at IEM Chengdu 2024" src="img/astrfaze.webp">
+        <figcaption>Astralis vs FaZe - IEM Chengdu 2024 l CS2</figcaption>
+      </figure>
+    </article>
+</section>
+
+</section>
+<article class="kamp-1">
+    <figure>
+      <span class="image2"></span>
+      <img class="matchpic" loading="lazy" alt="Astralis vs FaZe match at IEM Chengdu 2024" src="img/astrkvin.webp">
+      <figcaption>Astralis Women vs FaZe Women - IEM Chengdu 2024 l CS2</figcaption>
+    </figure>
+  </article>
+</section>
+
+<section class="label-parent1">
+    <article class="label12">
+      <header class="label-1-container">
+        <span class="live">Highlights</span>
+      </header>
+      <footer class="label-wrapper1">
+        <span class="sealle">Se alle</span>
+      </footer>
+    </article>
+
+    <article class="kamp-1">
+      <figure>
+        <span class="image2"></span>
+        <img class="matchpic" loading="lazy" alt="Astralis vs FaZe match at IEM Chengdu 2024" src="img/devicefrag.webp">
+        <figcaption>dev1ce Frag Movie 2024</figcaption>
+      </figure>
+    </article>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
