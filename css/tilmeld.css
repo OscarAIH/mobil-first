@@ -43,7 +43,7 @@ h1 {
 h2 {
     font-size: 20px;
     background: linear-gradient(45deg, #ffffff, #931CF0);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 /*Body box er centreret*/

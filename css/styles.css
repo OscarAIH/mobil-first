@@ -108,7 +108,6 @@
     color: red; /* Red text for active state */
   }
   .team-players article {
-    background: #YourCardBackgroundColor;
     border-radius: 20px; /* Adjust as needed */
     padding: 1rem;
     margin: 1rem 0;
@@ -118,7 +117,7 @@
     width: 80px; /* Adjust as needed */
     height: 80px;
     border-radius: 50%;
-    border: 3px solid #YourBorderColor;
+    border: 3px solid
   }
   
   .team-players h2 {
@@ -145,3 +144,4 @@
   
   .slideshow {
     position: relative;
+}

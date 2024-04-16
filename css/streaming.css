@@ -60,7 +60,7 @@
   line-height: 20px;
   font-weight: 600;
   background: linear-gradient(114.63deg, #fff, #931cf0);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
 }
