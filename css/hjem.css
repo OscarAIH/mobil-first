@@ -66,6 +66,7 @@
 .team, .news {
     padding-top: 1em;
     
+    
 }
 
 #teamtekst {
@@ -83,6 +84,7 @@ float: left;
     border-radius: 50%;
     background-color:#2a3351;
     align-self: stretch;
+    
 
 }
 .small {
@@ -160,7 +162,7 @@ body {
   background-color: #10214500;
   border-radius: 10px;
   height: 300px;
-  width: 400px;
+  width: auto;
   overflow: hidden;
   border: 1px saddlebrown solid;
   box-shadow: 20px hsl(0, 0%, 3%);
@@ -187,7 +189,7 @@ body {
   -webkit-animation-iteration-count: infinite;
   /* -webkit-animation-direction: alternate; */
   -webkit-animation-play-state: running;
-  display: flex-start;
+  display: flex;
   justify-content: left;
   align-items: left;
 }
@@ -206,5 +208,14 @@ body {
   }
 
   40% {
-    margin-left: calc(-400px * 1);
+    margin-left: -400px
   }
+
+  60% {
+    margin-left: -800px
+  }
+
+  80% {
+    margin-left: -1200px
+  }
+
