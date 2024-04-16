@@ -59,8 +59,6 @@
     background:linear-gradient(114.63deg, #fff, #931cf0) ;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-   
-
 }
   
 .team, .news {
@@ -90,6 +88,7 @@ float: left;
 .small {
 font-size: 12px;
 }
+
 .ingame {
     margin-top: 0.5em;
 }
@@ -107,6 +106,7 @@ font-size: 12px;
 .news {
     position: relative; 
 }
+
 #senestetekst {
   float: left;
   }
@@ -141,25 +141,15 @@ font-size: 12px;
 }
 
 
-
-TEST
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   background-color: rgb(171, 243, 243);
-  font-family: poppins;
+  font-family: 'poppins', sans-serif;
   font-weight: lighter;
   text-align: left;
 }
 .content {
   margin: auto;
   padding: 0;
-  background-color: #10214500;
   border-radius: 10px;
   height: 300px;
   width: auto;
@@ -218,4 +208,7 @@ body {
   80% {
     margin-left: -1200px
   }
+
+
+  
 
