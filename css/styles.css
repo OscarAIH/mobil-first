@@ -90,9 +90,8 @@
     font-weight: bold; /* Bold text for the menu items */
   }
   
-  /* Style for each menu item link */
   .menu-overlay ul li a {
-    color: white; /* Text color for menu items */
+    color: white; 
     text-decoration: none; /* No underline */
     display: block;
     margin-bottom: 20px; /* Space between menu items */
