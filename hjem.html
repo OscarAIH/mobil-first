@@ -15,9 +15,9 @@
 </head>
 <body>
 
-<header> <!--Semantisk tag, lavet en header til vores navigations bar, efter den skal være i toppen af hjemmesiden -->
+<header> <!--Semantisk tag, lavet en header til vores profil, search og burgermenu, efter den skal være i toppen af hjemmesiden -->
      <nav>
-        <button class="burger-menu" onclick="toggleMenu()">☰</button>
+        <button class="burger-menu" onclick="toggleMenu()">☰</button> <!--Åbner for burgmenuen med javascript-->
           <section class="menu-actions">
            <button class="search-button" aria-label="Search">
               <img src="img/search.webp" alt="Search">
@@ -29,8 +29,9 @@
     </nav>
 </header>
 
-<aside class="menu-overlay">
-  <button class="close-btn" onclick="toggleMenu()">×</button> <!-- Action button/javascript til-->
+<aside class="menu-overlay"> 
+  <button class="close-btn" onclick="toggleMenu()">×</button> <!-- Action button/javascript til at lukke for menuen-->
+  <nav> <!--Semantisk tag til navigations baren under burgermenu-->
       <ul>
         <li><a href="hjem.html">Hjem</a></li>
         <li><a href="tilmeld.html">Tilmelding</a></li>
@@ -39,27 +40,27 @@
         <li><a href="#">Stats</a></li>
         <li><a href="#">Om Astralis Aim Academy</a></li>
       </ul>
+    </nav>    
 </aside>
 
 <main>
-
     <element>
-        <div class="content">
-          <div class="slides">
-            <div class="slide_content 1">
+        <article class="content">
+          <container class="slides">
+            <figure class="slide_content 1">
                 <a href="tilmeld.html"><img src="img/slide1.webp" alt="Tilmelding"></a>
-            </div>
-            <div class="slide_content 2">
+            </figure>
+            <figure class="slide_content 2">
                 <img src="img/slide2.webp" alt="Bro">
-            </div>
-            <div class="slide_content 2">
+            </figure>
+            <figure class="slide_content 2">
                 <img src="img/slide3.webp" alt="Settings">
-            </div>
-            <div class="slide_content 4">
+            </figure>
+            <figure class="slide_content 4">
                 <img src="img/slide4.webp" alt="Live">
-            </div>
-          </div>
-        </div>
+            </figure>
+          </contain>
+        </article>
       </element>
 
       <section class="team">
