@@ -15,6 +15,7 @@
   
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   header {
     background-color: #031625;
 =======
@@ -27,6 +28,11 @@
   header {
     background-color: #031625; /* Dark background for the navbar */
 >>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
+=======
+  /* Style the header and navigation bar */
+  header {
+    background-color: #031625; /* Dark background for the navbar */
+>>>>>>> parent of 64976ec (account knap)
     color: white;
     padding: 10px;
   }
@@ -39,12 +45,16 @@
   
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   /* Stylere burgermenuen */
 >>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
 =======
   /* Style the burger menu button */
 >>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
+=======
+  /* Style the burger menu button */
+>>>>>>> parent of 64976ec (account knap)
   .burger-menu {
     background: none;
     border: none;
@@ -55,17 +65,22 @@
   
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 >>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
 =======
   /* Style the menu actions section with search and account buttons */
 >>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
+=======
+  /* Style the menu actions section with search and account buttons */
+>>>>>>> parent of 64976ec (account knap)
   .menu-actions {
     display: flex;
     align-items: center;
   }
   
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -74,6 +89,9 @@
 =======
   /* Generic button reset for search and account buttons */
 >>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
+=======
+  /* Generic button reset for search and account buttons */
+>>>>>>> parent of 64976ec (account knap)
   .menu-actions button {
     background: transparent;
     border: none;
@@ -177,6 +195,7 @@
   .slideshow {
     position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .account-menu-overlay {
@@ -261,3 +280,6 @@
 =======
 }
 >>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
+=======
+}
+>>>>>>> parent of 64976ec (account knap)
