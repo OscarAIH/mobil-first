@@ -137,6 +137,10 @@ font-size: 12px;
 }
 
 
+#hvid {
+  color: white;
+}
+
 body {
   background-color: rgb(171, 243, 243);
   font-family: 'poppins', sans-serif;
