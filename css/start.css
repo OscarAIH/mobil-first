@@ -1,0 +1,116 @@
+body {
+    background-color: #031625;
+    font-family: 'Poppins', sans-serif;
+    margin: 0; /*bruges til at lave plads omkring elementer, unden for grænserne*/
+    padding: 0; /* padding bruges til at lave plads omkring elementerne inden for grænserne*/
+}
+
+.box {
+    max-width: 300px; /* sætter max with til 300 px*/
+    margin: 0 auto;
+    background-color: #031625;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center; /*centere teksten*/
+    display: flex;
+    flex-direction: column; /*bestemmer om teksten er i en række eller kolonne*/
+    justify-content: space-between; /* tingne i kassen har afstand mellem sig*/
+    min-height: 100vh;
+    position: relative; /*betyder at positionen er relativ*/
+    
+}
+
+.text-box {
+    width:200px; /*bestemmer bredden på kassen*/
+    height:200px; /*bestemmer højden på kassen*/
+    position: absolute; /*betyder at positionen er absolute*/
+    background-color: #031625;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.text-box h2 {
+   color: #931CF0;
+   margin-top: 20px;
+}
+
+.tryk-text {
+    color: #ffffff;
+}
+
+
+p {
+    font-size: 16px; /*bestemmer skrift størrelsen*/
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(45deg, #ffffff, #931CF0); /*bruges til at lave fade i farverne*/
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.footer h3 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: -50px;
+}
+
+.footer-text {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) { /*bruges til at sætte max bredden til 600px, så det passer på en mobil skærm*/
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}

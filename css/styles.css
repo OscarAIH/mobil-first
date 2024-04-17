@@ -1,4 +1,3 @@
-/* Reset some default styles for a clean slate */
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +12,14 @@
     background: #031625; 
   }
   
+<<<<<<< HEAD
   header {
     background-color: #031625;
+=======
+  /* Stylere header og navigation bar */
+  header {
+    background-color: #031625; 
+>>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
     color: white;
     padding: 10px;
   }
@@ -25,6 +30,10 @@
     align-items: center;
   }
   
+<<<<<<< HEAD
+=======
+  /* Stylere burgermenuen */
+>>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
   .burger-menu {
     background: none;
     border: none;
@@ -33,38 +42,47 @@
     cursor: pointer;
   }
   
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
   .menu-actions {
     display: flex;
     align-items: center;
   }
   
+<<<<<<< HEAD
+=======
+  /* Styling af bruger og search knap */
+>>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
   .menu-actions button {
     background: transparent;
     border: none;
     padding: 5px;
-    margin-left: 10px; /* Add space between buttons */
+    margin-left: 20px;
     cursor: pointer;
   }
   
-  /* Add custom images to search and account buttons */
+  
   .search-button img, .account-button img {
-    height: 24px; /* Example size, adjust as needed */
+    height: 24px;
     width: auto;
   }
   
-  /* Style for menu overlay which appears from the left */
+  /* Styling af hele menuen til venstre */
   .menu-overlay {
     position: fixed;
     width: 60%;
     height: 100%;
-    background-color: #333333; /* Overlay background color */
+    background-color: #333333; 
     top: 0;
-    left: -100%; /* Start off-screen */
+    left: -100%; 
     transition: left 0.3s;
-    padding-top: 50px; /* Space for the close button */
-    z-index: 2; /* Above the content */
+    padding-top: 50px; 
+    z-index: 2; 
   }
   
+  /* Styling af close knappen */
   .close-btn {
     font-size: 24px;
     color: #FF0101;
@@ -77,30 +95,28 @@
     padding: 10px;
   }
   
-  /* Style the list of menu items in the overlay */
-  .menu-overlay ul {
-    list-style: none;
-    padding-left: 20px;
-    color: white;
-    font-size: 1.5em; /* Larger text for better legibility on mobile */
-    font-weight: bold; /* Bold text for the menu items */
-  }
-  
+  /* Styling af teksten til menuen til venstre */
   .menu-overlay ul li a {
     color: white; 
     text-decoration: none; /* No underline */
     display: block;
     margin-bottom: 20px; /* Space between menu items */
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+    font-size: 1.5em; 
+    font-weight: bold; 
   }
   
-  /* Hover style for menu item links */
+  /* Hover effekt til menuen */
   .menu-overlay ul li a:hover {
-    color: #ccc; /* Lighter color on hover */
+    color: #ccc; 
   }
   
-  /* Active style for menu item links (when clicked) */
+  /* Aktivere rød farve efter du har klikket på en af menuerne */
   .menu-overlay ul li a:active,
   .menu-overlay ul li a.active {
+<<<<<<< HEAD
     color: red; /* Red text for active state */
   }
   .team-players article {
@@ -221,3 +237,7 @@
 .member-number {
   margin-bottom: 10px;
 }
+=======
+    color: red; 
+  }
+>>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
