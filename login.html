@@ -9,23 +9,61 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/tilmeld.css">
     <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" type="text/css" href="css/start.css">
+    <link rel="stylesheet" href="css/start.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
 </head>
+
 <body>
         <header>
             <nav>
-               <button class="burger-menu" onclick="toggleMenu()">☰</button>
-               <section class="menu-actions">
-                 <button class="search-button" aria-label="Search">
-                   <img src="img/search.webp" alt="Search">
-                 </button>
-                 <button class="account-button" aria-label="My Account">
-                   <img src="img/acc.webp" alt="My Account">
-                 </button>
-               </section>
-           </nav>
-       </header>
+                <button class="burger-menu" onclick="toggleMenu()">☰</button> <!--Åbner for burgmenuen med javascript-->
+                  <section class="menu-actions">
+                   <button class="search-button" aria-label="Search">
+                      <img src="img/search.webp" alt="Search">
+                  </button>
+                  <button class="account-button" aria-label="My Account" onclick="toggleAccountMenu()">
+                    <img src="img/acc.webp" alt="My Account">
+                  </button>
+                </section>
+            </nav>
+        </header>
+        
+        <aside class="menu-overlay"> 
+          <button class="close-btn" onclick="toggleMenu()">×</button> <!-- Action button/javascript til at lukke for menuen-->
+          <nav> <!--Semantisk tag til navigations baren under burgermenu-->
+              <ul>
+                <li><a href="hjem.html">Hjem</a></li>
+                <li><a href="tilmeld.html">Tilmelding</a></li>
+                <li><a href="streaming.html">Se Live</a></li>
+                <li><a href="#">Nyheder</a></li>
+                <li><a href="#">Stats</a></li>
+                <li><a href="#">Om Astralis Aim Academy</a></li>
+              </ul>
+            </nav>    
+        </aside>
+        
+        <aside class="account-menu-overlay">
+          <button class="close-account-menu" onclick="toggleAccountMenu()">×</button>
+          <section class="user-info">
+            <figure>
+              <img src="img/lordgaben.webp" alt="User" class="user-picture">
+              <figcaption>
+                <p class="member-number">Velkommen, wag_wanstrup</p>
+                <p class="member-number">Medlems Nr: #75152</p>
+              </figcaption>
+            </figure>
+          </section>
+          <nav>
+            <ul class="account-tekst">
+              <li><a href="profile.html">Min Profil</a></li>
+              <li><a href="#">Mine Stats</a></li>
+              <li><a href="#">Mine Highlights</a></li>
+              <li><a href="#">Mit Hold</a></li>
+              <li><a href="#">Turneringsplan</a></li>
+              <li><a href="#">Log Ud</a></li>
+            </ul>
+          </nav>
+        </aside>
 
         <h1>Opret bruger</h1>
     <section class="body-box">
@@ -68,18 +106,7 @@
         <input class="container-text" type="text" id="premierRating" name="premierRating"><br><br>
     </section>
 
-    <aside class="menu-overlay">
-        <button class="close-btn" onclick="toggleMenu()">×</button>
-        <ul>
-          <li><a href="hjem.html">Hjem</a></li>
-          <li><a href="tilmeld.html">Tilmelding</a></li>
-          <li><a href="streaming.html">Se Live</a></li>
-          <li><a href="#">Nyheder</a></li>
-          <li><a href="#">Stats</a></li>
-          <li><a href="#">Om Astralis Aim Academy</a></li>
-        </ul>
-      </aside>
-<script src="script.js"></script>
-<script src="slideshow.js"></script>
+<script src="js/script.js"></script>
+<script src="js/slideshow.js"></script>
 </body>
 </html>
