@@ -12,14 +12,9 @@
     background: #031625; 
   }
   
-<<<<<<< HEAD
-  header {
-    background-color: #031625;
-=======
   /* Stylere header og navigation bar */
   header {
     background-color: #031625; 
->>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
     color: white;
     padding: 10px;
   }
@@ -30,10 +25,7 @@
     align-items: center;
   }
   
-<<<<<<< HEAD
-=======
   /* Stylere burgermenuen */
->>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
   .burger-menu {
     background: none;
     border: none;
@@ -42,19 +34,13 @@
     cursor: pointer;
   }
   
-<<<<<<< HEAD
-=======
   
->>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
   .menu-actions {
     display: flex;
     align-items: center;
   }
   
-<<<<<<< HEAD
-=======
   /* Styling af bruger og search knap */
->>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
   .menu-actions button {
     background: transparent;
     border: none;
