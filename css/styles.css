@@ -10,12 +10,11 @@
     height: 100%;
     color: white;
     font-family: poppins, sans-serif;
-    background: #031625; /* Adjust the background color as needed */
+    background: #031625; 
   }
   
-  /* Style the header and navigation bar */
   header {
-    background-color: #031625; /* Dark background for the navbar */
+    background-color: #031625;
     color: white;
     padding: 10px;
   }
@@ -26,7 +25,6 @@
     align-items: center;
   }
   
-  /* Style the burger menu button */
   .burger-menu {
     background: none;
     border: none;
@@ -35,13 +33,11 @@
     cursor: pointer;
   }
   
-  /* Style the menu actions section with search and account buttons */
   .menu-actions {
     display: flex;
     align-items: center;
   }
   
-  /* Generic button reset for search and account buttons */
   .menu-actions button {
     background: transparent;
     border: none;
@@ -144,4 +140,84 @@
   
   .slideshow {
     position: relative;
+}
+
+.account-menu-overlay {
+  position: fixed;
+  width: 60%;
+  height: 100%;
+  background-color: #333333;
+  top: 0;
+  right: -60%; 
+  transition: right 0.3s ease; /* Ensure this is set to transition the 'right' property */
+  padding-top: 50px;
+  z-index: 2;
+}
+
+.account-menu-overlay ul {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0px; 
+  color: white;
+  margin-bottom: 20px;
+}
+
+.account-menu-overlay ul li a {
+  color: white; 
+  text-decoration: none; 
+  display: block; 
+  padding: 10px; 
+  transition: color 0.3s; 
+}
+.account-menu-overlay ul li a:hover {
+  color: #ccc;
+}
+
+/* Active style for account menu overlay links (clicked) */
+.account-menu-overlay ul li a:active {
+  color: red; /* Red when active */
+}
+
+/* Style for maintaining red color on a currently 'active' class link */
+.account-menu-overlay ul li a.active {
+  color: red; /* Keeps the link red if it has an 'active' class */
+}
+
+.close-account-menu {
+  font-size: 24px;
+  color: red;
+  position: absolute;
+  top: 0;
+  right: 0; /* Positioned to the right */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.user-info {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.account-tekst{
+  color: white;
+  text-align: right;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.user-picture {
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  border-radius: 50%; /* Makes the image round */
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.member-number {
+  margin-bottom: 10px;
 }
