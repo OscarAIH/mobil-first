@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  
   }
 
   body {
@@ -13,7 +12,6 @@
    
 .team-members {
     display: flex;
-    flex-wrap: row;
     justify-content: flex-end; 
     margin-left: 0.5em;
     padding-left: 5%;
@@ -154,8 +152,6 @@ body {
   height: 300px;
   width: auto;
   overflow: hidden;
-  border: 1px saddlebrown solid;
-  box-shadow: 20px hsl(0, 0%, 3%);
   z-index: -1;
 }
 .show {
@@ -180,7 +176,6 @@ body {
   animation-play-state: running;
   display: flex;
   justify-content: left;
-  align-items: left;
 }
 .slide_content:nth-child(1) {
   background: #FF0101;
