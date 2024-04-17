@@ -1,4 +1,3 @@
-/* Reset some default styles for a clean slate */
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +9,12 @@
     height: 100%;
     color: white;
     font-family: poppins, sans-serif;
-    background: #031625; /* Adjust the background color as needed */
+    background: #031625; 
   }
   
-  /* Style the header and navigation bar */
+  /* Stylere header og navigation bar */
   header {
-    background-color: #031625; /* Dark background for the navbar */
+    background-color: #031625; 
     color: white;
     padding: 10px;
   }
@@ -26,7 +25,7 @@
     align-items: center;
   }
   
-  /* Style the burger menu button */
+  /* Stylere burgermenuen */
   .burger-menu {
     background: none;
     border: none;
@@ -35,40 +34,41 @@
     cursor: pointer;
   }
   
-  /* Style the menu actions section with search and account buttons */
+  
   .menu-actions {
     display: flex;
     align-items: center;
   }
   
-  /* Generic button reset for search and account buttons */
+  /* Styling af bruger og search knap */
   .menu-actions button {
     background: transparent;
     border: none;
     padding: 5px;
-    margin-left: 10px; /* Add space between buttons */
+    margin-left: 20px;
     cursor: pointer;
   }
   
-  /* Add custom images to search and account buttons */
+  
   .search-button img, .account-button img {
-    height: 24px; /* Example size, adjust as needed */
+    height: 24px;
     width: auto;
   }
   
-  /* Style for menu overlay which appears from the left */
+  /* Styling af hele menuen til venstre */
   .menu-overlay {
     position: fixed;
     width: 60%;
     height: 100%;
-    background-color: #333333; /* Overlay background color */
+    background-color: #333333; 
     top: 0;
-    left: -100%; /* Start off-screen */
+    left: -100%; 
     transition: left 0.3s;
-    padding-top: 50px; /* Space for the close button */
-    z-index: 2; /* Above the content */
+    padding-top: 50px; 
+    z-index: 2; 
   }
   
+  /* Styling af close knappen */
   .close-btn {
     font-size: 24px;
     color: #FF0101;
@@ -81,67 +81,26 @@
     padding: 10px;
   }
   
-  /* Style the list of menu items in the overlay */
-  .menu-overlay ul {
-    list-style: none;
-    padding-left: 20px;
-    color: white;
-    font-size: 1.5em; /* Larger text for better legibility on mobile */
-    font-weight: bold; /* Bold text for the menu items */
-  }
-  
+  /* Styling af teksten til menuen til venstre */
   .menu-overlay ul li a {
     color: white; 
     text-decoration: none; /* No underline */
     display: block;
     margin-bottom: 20px; /* Space between menu items */
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+    font-size: 1.5em; 
+    font-weight: bold; 
   }
   
-  /* Hover style for menu item links */
+  /* Hover effekt til menuen */
   .menu-overlay ul li a:hover {
-    color: #ccc; /* Lighter color on hover */
+    color: #ccc; 
   }
   
-  /* Active style for menu item links (when clicked) */
+  /* Aktivere rød farve efter du har klikket på en af menuerne */
   .menu-overlay ul li a:active,
   .menu-overlay ul li a.active {
-    color: red; /* Red text for active state */
+    color: red; 
   }
-  .team-players article {
-    border-radius: 20px; /* Adjust as needed */
-    padding: 1rem;
-    margin: 1rem 0;
-  }
-  
-  .team-players img {
-    width: 80px; /* Adjust as needed */
-    height: 80px;
-    border-radius: 50%;
-    border: 3px solid
-  }
-  
-  .team-players h2 {
-    font-size: 1rem; /* Adjust as needed */
-    margin-top: 0.5rem;
-  }
-  
-  .latest-news article {
-    background: #031625;
-    border-radius: 20px; /* Adjust as needed */
-    margin: 1rem 0;
-    overflow: hidden;
-  }
-  
-  .latest-news img {
-    width: 100%;
-    display: block;
-  }
-  
-  .latest-news h2 {
-    font-size: 1.2rem; /* Adjust as needed */
-    margin: 0.5rem;
-  }
-  
-  .slideshow {
-    position: relative;
-}
