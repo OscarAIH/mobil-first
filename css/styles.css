@@ -1,3 +1,4 @@
+/* Reset some default styles for a clean slate */
 * {
     margin: 0;
     padding: 0;
@@ -9,9 +10,10 @@
     height: 100%;
     color: white;
     font-family: poppins, sans-serif;
-    background: #031625; 
+    background: #031625; /* Adjust the background color as needed */
   }
   
+<<<<<<< HEAD
 <<<<<<< HEAD
   header {
     background-color: #031625;
@@ -20,6 +22,11 @@
   header {
     background-color: #031625; 
 >>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
+=======
+  /* Style the header and navigation bar */
+  header {
+    background-color: #031625; /* Dark background for the navbar */
+>>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
     color: white;
     padding: 10px;
   }
@@ -31,9 +38,13 @@
   }
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   /* Stylere burgermenuen */
 >>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
+=======
+  /* Style the burger menu button */
+>>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
   .burger-menu {
     background: none;
     border: none;
@@ -43,46 +54,53 @@
   }
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   
 >>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
+=======
+  /* Style the menu actions section with search and account buttons */
+>>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
   .menu-actions {
     display: flex;
     align-items: center;
   }
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   /* Styling af bruger og search knap */
 >>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
+=======
+  /* Generic button reset for search and account buttons */
+>>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
   .menu-actions button {
     background: transparent;
     border: none;
     padding: 5px;
-    margin-left: 20px;
+    margin-left: 10px; /* Add space between buttons */
     cursor: pointer;
   }
   
-  
+  /* Add custom images to search and account buttons */
   .search-button img, .account-button img {
-    height: 24px;
+    height: 24px; /* Example size, adjust as needed */
     width: auto;
   }
   
-  /* Styling af hele menuen til venstre */
+  /* Style for menu overlay which appears from the left */
   .menu-overlay {
     position: fixed;
     width: 60%;
     height: 100%;
-    background-color: #333333; 
+    background-color: #333333; /* Overlay background color */
     top: 0;
-    left: -100%; 
+    left: -100%; /* Start off-screen */
     transition: left 0.3s;
-    padding-top: 50px; 
-    z-index: 2; 
+    padding-top: 50px; /* Space for the close button */
+    z-index: 2; /* Above the content */
   }
   
-  /* Styling af close knappen */
   .close-btn {
     font-size: 24px;
     color: #FF0101;
@@ -95,25 +113,28 @@
     padding: 10px;
   }
   
-  /* Styling af teksten til menuen til venstre */
+  /* Style the list of menu items in the overlay */
+  .menu-overlay ul {
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+    font-size: 1.5em; /* Larger text for better legibility on mobile */
+    font-weight: bold; /* Bold text for the menu items */
+  }
+  
   .menu-overlay ul li a {
     color: white; 
     text-decoration: none; /* No underline */
     display: block;
     margin-bottom: 20px; /* Space between menu items */
-    list-style: none;
-    padding-left: 20px;
-    color: white;
-    font-size: 1.5em; 
-    font-weight: bold; 
   }
   
-  /* Hover effekt til menuen */
+  /* Hover style for menu item links */
   .menu-overlay ul li a:hover {
-    color: #ccc; 
+    color: #ccc; /* Lighter color on hover */
   }
   
-  /* Aktivere rød farve efter du har klikket på en af menuerne */
+  /* Active style for menu item links (when clicked) */
   .menu-overlay ul li a:active,
   .menu-overlay ul li a.active {
     color: red; /* Red text for active state */
@@ -155,6 +176,7 @@
   
   .slideshow {
     position: relative;
+<<<<<<< HEAD
 }
 
 .account-menu-overlay {
@@ -236,3 +258,6 @@
 .member-number {
   margin-bottom: 10px;
 }
+=======
+}
+>>>>>>> parent of 06fc850 (Tilføjelse af kommentare og sletning af gammel css på style.css)
