@@ -116,7 +116,6 @@
   /* Aktivere rød farve efter du har klikket på en af menuerne */
   .menu-overlay ul li a:active,
   .menu-overlay ul li a.active {
-<<<<<<< HEAD
     color: red; /* Red text for active state */
   }
   .team-players article {
@@ -237,7 +236,3 @@
 .member-number {
   margin-bottom: 10px;
 }
-=======
-    color: red; 
-  }
->>>>>>> 06fc8503447a9ea8b5e75f9510a71902991edd43
