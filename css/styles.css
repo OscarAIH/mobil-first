@@ -24,7 +24,10 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+  .accountNav {
+    display: block;
+  }
+
   /* Stylere burgermenuen */
   .burger-menu {
     background: none;
