@@ -103,6 +103,7 @@
   .menu-overlay ul li a:active,
   .menu-overlay ul li a.active {
     color: red; /* Red text for active state */
+    color: red; 
   }
   .team-players article {
     border-radius: 20px; /* Adjust as needed */
@@ -202,7 +203,7 @@
   margin-bottom: 20px;
 
 }
-
+ /* tekst */
 .account-tekst{
   color: white;
   text-align: right;
@@ -222,3 +223,4 @@
 .member-number {
   margin-bottom: 10px;
 }
+
