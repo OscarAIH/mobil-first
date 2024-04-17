@@ -67,8 +67,6 @@
   
 .team, .news {
     padding-top: 1em;
-    
-    
 }
 
 #teamtekst {
@@ -85,9 +83,8 @@ float: left;
     height: auto;
     border-radius: 50%;
     background-color:#2a3351;
-    
-
 }
+
 .small {
 font-size: 12px;
 }
