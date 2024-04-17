@@ -24,7 +24,10 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+  .accountNav {
+    display: block;
+  }
+
   /* Stylere burgermenuen */
   .burger-menu {
     background: none;
@@ -48,6 +51,7 @@
     margin-left: 20px;
     cursor: pointer;
   }
+  
   
   /* tekst test*/
   .search-button img, .account-button img {
@@ -105,41 +109,7 @@
     color: red; /* Red text for active state */
     color: red; 
   }
-  .team-players article {
-    border-radius: 20px; /* Adjust as needed */
-    padding: 1rem;
-    margin: 1rem 0;
-  }
-  
-  .team-players img {
-    width: 80px; /* Adjust as needed */
-    height: 80px;
-    border-radius: 50%;
-    border: 3px solid
-  }
-  
-  .team-players h2 {
-    font-size: 1rem; /* Adjust as needed */
-    margin-top: 0.5rem;
-  }
-  
-  .latest-news article {
-    background: #031625;
-    border-radius: 20px; /* Adjust as needed */
-    margin: 1rem 0;
-    overflow: hidden;
-  }
-  
-  .latest-news img {
-    width: 100%;
-    display: block;
-  }
-  
-  .latest-news h2 {
-    font-size: 1.2rem; /* Adjust as needed */
-    margin: 0.5rem;
-  }
-  
+ 
   .slideshow {
     position: relative;
 }
