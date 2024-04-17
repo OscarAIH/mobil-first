@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+
+.container {
+    background-image: url("http://127.0.0.1:5501/img/bg.webp"); /* virker muligvis ikke pga stinavnet */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.button1 {
+    font-size: 16px;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #031625, #FF0101);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button2 {
+    font-size: 16px;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #ffffff, #FF0101);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+
