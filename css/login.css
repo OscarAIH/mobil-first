@@ -17,8 +17,8 @@ html, body {
 }
 
 .container-text label {
-    font-weight: regular; /*indstilling af forskellige skrifttypestørrelser, for forskellige afsnit*/
-    font-size: 10px; /*bestemmer skrift størrelsen*/
+    font-weight: normal;
+    font-size: 10px;
     text-align: left 
     
 }

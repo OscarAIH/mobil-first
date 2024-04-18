@@ -17,7 +17,7 @@ html, body {
 }
 /*teksten er til vestre, samt font størrelsen er på 10px*/
 .container-text label {
-    font-weight: regular;
+    font-weight: normal;
     font-size: 10px;
     text-align: left 
     
