@@ -1,11 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /*bruges til at skabe plads omkring elementer, uden for definerede grænser*/
+    padding: 0; /*bruges til at skabe plads omkring elementer, uden for definerede grænser*/
     box-sizing: border-box;
   }
-  
+  /* her bliver bredden og højden bestemt, samt samt hvilken farve/font typer, som bliver brugt*/
   body, html {
-    width: 100%;
+    width: 100%; 
     height: 100%;
     color: white;
     font-family: poppins, sans-serif;
@@ -18,7 +18,7 @@
     color: white;
     padding: 10px;
   }
-  
+  /*tesksten er centreret, med afstand i mellem elementerne & teksten bliver vist vha display: flex;*/
   nav {
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@
     cursor: pointer;
   }
   
-  
+  /*teksten er centreret*/
   .menu-actions {
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@
   background-color: #333333;
   top: 0;
   right: -60%; 
-  transition: right 0.3s ease; /* Ensure this is set to transition the 'right' property */
+  transition: right 0.3s ease; /* overføre den rigtige engenskab */
   padding-top: 50px;
   z-index: 2;
 }
@@ -145,7 +145,7 @@
   color: #ccc;
 }
 
-/* Active style for account menu overlay links (clicked) */
+/* Styler acount overlay menuen */
 .account-menu-overlay ul li a:active {
   color: red; /* Red when active */
 }
