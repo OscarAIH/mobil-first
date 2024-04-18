@@ -1,18 +1,18 @@
 /*Font, samt baggrundfarve*/
 html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #031625;
+    margin: 0; /*bruges til at skabe plads omkring elementer, uden for definerede grænser*/
+    padding: 0; /* bruges til at skabe plads omkring elementer, inden for definerede grænser*/
+    background-color: #031625; /* bestemmer farven*/
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 
 .container-text {
-    width: 100%;
+    width: 100%; /* bestemmer bredden på vores container*/
     box-sizing: border-box;
     border-radius: 80px;
     padding: 20px;
-    text-align: left;
+    text-align: left; /*bestemmer placeringen af vores tekst, i dette tilfælde til venstre*/
     margin: 5px auto 0;
 }
 
@@ -42,8 +42,8 @@ h1 {
 /*gradient farve til body tekst*/
 h2 {
     font-size: 20px;
-    background: linear-gradient(45deg, #ffffff, #931CF0);
-    background-clip: text;
+    background: linear-gradient(45deg, #ffffff, #931CF0); /*linear-gradient bruges til at fade vores farver*/
+    background-clip: text; /*betyder hvorlangt baggrunden til skal strække sig inden for et element*/
     -webkit-text-fill-color: transparent;
 }
 /*Body box er centreret*/
