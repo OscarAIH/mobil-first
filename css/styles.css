@@ -113,7 +113,7 @@
   .slideshow {
     position: relative;
 }
-
+/*position, højde, bredde, baggrunds farve, z-index og transition bliver stylet her*/
 .account-menu-overlay {
   position: fixed;
   width: 60%;
@@ -125,7 +125,7 @@
   padding-top: 50px;
   z-index: 2;
 }
-
+/* margin, padding, farve bliver stylet her*/
 .account-menu-overlay ul {
   list-style-type: none;
   padding: 0; 
@@ -133,7 +133,7 @@
   color: white;
   margin-bottom: 20px;
 }
-
+/*transition, farve, margin, padding, tekstens vej bliver stylet her*/
 .account-menu-overlay ul li a {
   color: white; 
   text-decoration: none; 
@@ -150,23 +150,23 @@
   color: red; /* Red when active */
 }
 
-/* Style for maintaining red color on a currently 'active' class link */
+/* Styler fraven til at være rød på et link */
 .account-menu-overlay ul li a.active {
-  color: red; /* Keeps the link red if it has an 'active' class */
+  color: red; /*linket forbliver rødt, hvis det har en klasse*/
 }
-
+/*skrift størrelse, farve, postion, hvor containeren er placeret, bliver stylet her*/
 .close-account-menu {
   font-size: 24px;
   color: red;
   position: absolute;
   top: 0;
-  right: 0; /* Positioned to the right */
+  right: 0; /* positioneret til højre */
   background: none;
   border: none;
   cursor: pointer;
   padding: 10px;
 }
-
+/* teskt cenreret, samt farven bliver stylet her*/
 .user-info {
   color: white;
   text-align: center;
@@ -181,11 +181,11 @@
   font-weight: bold;
 }
 
-
+/*højden, bredden, marginer, border & billedet bliver stylet her*/
 .user-picture {
-  width: 80px; /* Adjust as needed */
-  height: 80px; /* Adjust as needed */
-  border-radius: 50%; /* Makes the image round */
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; /* gør billedet rund */
   margin-bottom: 10px;
   object-fit: cover;
 }
