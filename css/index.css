@@ -2,22 +2,22 @@
     margin: 0;
     padding: 0;
     font-family: poppins, sans-serif;
-    box-sizing: border-box; /* Ensures padding and border are included in the width and height */
+    box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
     width: 100%;
-    overflow: hidden; /* Prevents scroll bars */
+    overflow: hidden; /* Forhindrer at der kommer en scrollbar */
 }
 
 .background {
-    position: fixed; /* Makes the image cover the entire view at all times */
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1; /* Places the image behind other content */
+    z-index: -1; /* Sikre at baggrundsbilledet er bagerst */
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -27,19 +27,20 @@ html, body {
 #billed {
     height: 100%;
     width: 100%;
-    object-fit: cover; /* Ensures the image covers the area without stretching */
+    object-fit: cover; /* Sikre at billedet fylder hele skærmen uden at blive udstrukket */
 }
 
 .container {
     position: fixed;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%); /* Centers the container in the middle of the screen */
-    text-align: center; /* Ensures buttons are centered within the container */
-    z-index: 10; /* Ensures the buttons are above the background */
+    transform: translate(-50%, -50%); /* Centrerer containeren */
+    text-align: center; /* Sikre at knapperne er centreret ifht baggrundsbilledet */
+    z-index: 10; /* Sikre at knapperne altid er foran baggrundsbilledet */
 }
 
 .button1, .button2 {
+    margin: 10px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -56,7 +57,7 @@ html, body {
 .button2 {
     background: linear-gradient(45deg, #ffffff, #FF0101);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; /* Gør at det kun er teksten der bliver påvirket */
     font-weight: bold;
     color: white;
 }
