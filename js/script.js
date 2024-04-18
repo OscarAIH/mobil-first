@@ -1,7 +1,10 @@
+
+/* Burger Menu der slider ind fra venstre side  */
 function toggleMenu() {
   const menu = document.querySelector('.menu-overlay');
   const accountMenu = document.querySelector('.account-menu-overlay');
 
+  /* Gør at menuerne ikke er åbne på samme tid */
   if (menu.style.left === '0px') {
       menu.style.left = '-100%';
   } else {
@@ -12,7 +15,7 @@ function toggleMenu() {
   }
 }
 
-  
+  /* Slideshow funktion */
   var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -31,11 +34,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
 }
 
-/* Gør at menuerne ikke er åbne på samme tid */
+/* Profil Menu der slider ind fra højre side */
 function toggleAccountMenu() { 
   const accountMenu = document.querySelector('.account-menu-overlay');
   const menu = document.querySelector('.menu-overlay');
 
+  /* Gør at menuerne ikke er åbne på samme tid */
   if (accountMenu.style.right === '0px') {
       accountMenu.style.right = '-60%'; 
   } else {
