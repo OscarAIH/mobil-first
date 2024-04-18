@@ -1,6 +1,6 @@
 # robotstxt.org
 
-Sitemap: 
+Sitemap: http://felixdjurhuus.dk/sitemap.xml
 
 User-Agent: *
 Allow: /
