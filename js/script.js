@@ -31,14 +31,14 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
 }
 
-function toggleAccountMenu() {
+/* Gør at menuerne ikke er åbne på samme tid */
+function toggleAccountMenu() { 
   const accountMenu = document.querySelector('.account-menu-overlay');
   const menu = document.querySelector('.menu-overlay');
 
   if (accountMenu.style.right === '0px') {
       accountMenu.style.right = '-60%'; 
   } else {
-      // Close burger menu if it's open
       if (menu.style.left === '0px') {
           menu.style.left = '-100%'; 
       }
