@@ -2,9 +2,6 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: poppins, sans-serif;
-    background-image: url('/img/Jabbi.webp'); /* Make sure the path to your image is correct */
-    background-size: cover;
-    background-position: center;
 }
 
 .container {
@@ -13,7 +10,8 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    background: url('/img/bg.webp') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .button1 {
@@ -42,5 +40,3 @@ body, html {
     transition: background-color 0.3s;
     font-weight: bold;
 }
-
-
