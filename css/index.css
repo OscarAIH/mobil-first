@@ -40,13 +40,12 @@ html, body {
 }
 
 .button1, .button2 {
-    margin: 10px; /* Adds some space between the buttons */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     padding: 12px 24px;
-    font-size: 16px;
+    margin: 10px auto;
 }
 
 .button1 {
