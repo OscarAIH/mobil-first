@@ -75,10 +75,7 @@
   text-align: right;
   font-size: var(--font-size-sm);
 }
-.image2,
-.label12 {
-  align-self: stretch;
-}
+
 .label12 { /*styler vores label12 med flex direction, align-items, justify-content, gap, skriftstørrelse og skrift farve*/
   display: flex;
   flex-direction: row;
@@ -110,6 +107,7 @@
   max-height: 100%;
   object-fit: cover;
   z-index: 1;
+  
 }
 
 .label-4-wrapper { /*styler vores label-4-wrapper med flex direction, align-items, justify-content, gap*/
@@ -131,6 +129,7 @@
       #0c1342 81.16%
     ),
     #102145;
+    
 }
 .kamp-1 { /*styler vores kamp-1 med flex direction, align-items, justify-content, gap*/
   align-self: stretch;
@@ -141,5 +140,4 @@
   gap: 10px;
   margin-bottom: 1em;
   text-align: center;
-
 }
